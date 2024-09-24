@@ -1,0 +1,203 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+  
+
+
+
+body{
+    width:100%;
+    height: 100vh;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    /* background-color: red; */
+
+}
+
+.start-page{
+        background-image: linear-gradient(#05061400, #000000cc), url(../img/bg-img.jpg) !important;
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size:  cover;
+        width: 100%;
+        height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    letter-spacing: 1px;
+    display: flex;
+    position: fixed;
+    z-index: 50;
+    background-color: rgba(0, 0, 0, 0.745);
+}
+
+
+.links-of-header{
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #00000000;
+    float: right;
+    text-decoration: none;
+    margin-top: 23px;
+    margin-bottom: 15px;
+    margin-left: 47px;
+    margin-right: 47px;
+}
+
+
+.container-of-header-links{
+    float: left;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.share1{
+    display: inline-block;
+    background: linear-gradient(gold 0 0) bottom/0% 2px no-repeat;
+    transition: 400ms  all;
+
+    cursor: pointer;
+}
+
+.share1:hover{
+    background-size: 100% 2px;
+}
+
+.share1:hover a{
+    color: #888888;
+}
+
+.logo-a > .logo{
+    height: 75px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.logo-a{
+
+    margin-top: -9px;
+    margin-bottom: 22px;
+    margin-left: 17px;
+
+}
+
+
+
+/* Global */
+
+.welcome-line{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+    text-align: center;
+    font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+}
+
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.job-title{
+    text-align: center;
+    animation-duration: 6s
+}
+
+
+.bg-img{
+    width: 100%;
+    height: 730.42px;
+    height: 50vh;
+}
+
+.about-me{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+
+.aboutbox{
+    width: 97%;
+    height: 27rem;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: black 0px 7px 30px 0px;
+    display: flex;
+}
+.img-about{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.part-one-about{
+    width: calc(97%/2);
+    height: 100%;
+    padding: 2.2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+ul li{
+    list-style-type: none;
+}
+ul li span{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.part-two-about{
+    width: calc(97%/2);
+    height: 100%;
+    padding: 4rem;
+}
