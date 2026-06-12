@@ -52,7 +52,8 @@ export default function Hero() {
           <div className="w-full h-full rounded-full overflow-hidden border border-white/20 bg-[#1a0b3f]">
             {/* Note: In Next.js, replace <img> with <Image src="..." fill /> */}
             <Image
-              src="/myImg.jpg"
+              src="/IMG.JPG"
+              loading="eager"
               alt="Mostafa Abdalraheem"
               width={384}
               height={384}

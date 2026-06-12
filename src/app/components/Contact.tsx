@@ -1,8 +1,8 @@
 "use client";
-
+import { FaGithub , FaLinkedin} from "react-icons/fa";
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Send, Mail, Smartphone, MapPin, CheckCircle2, AlertCircle, CatIcon, LucideNetwork } from 'lucide-react';
+import { Send, Mail, Smartphone, MapPin, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function Contact() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -134,11 +134,11 @@ export default function Contact() {
 
             {/* الروابط */}
             <div className="flex gap-4 mt-10">
-              <Link href="https://github.com/mostafa-512" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-white/80 hover:text-[#14005c] hover:bg-white transition-all">
-                <CatIcon size={20} />
+              <Link href="https://github.com/mostafa-512" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-white/80  hover:bg-[#000000] transition-all">
+                <FaGithub className="w-6 h-6" />
               </Link>
-              <Link href="https://www.linkedin.com/in/mostafa-abdalraheem" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-white/80 hover:text-[#14005c] hover:bg-white transition-all">
-                <LucideNetwork size={20} />
+              <Link href="https://www.linkedin.com/in/mostafa-abdalraheem" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-white/80  hover:bg-[#0A62BC] transition-all">
+                <FaLinkedin className="w-6 h-6" />
               </Link>
             </div>
           </div>
