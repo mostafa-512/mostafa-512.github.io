@@ -16,7 +16,7 @@ export default function About  ()  {
       <div className="grid md:grid-cols-3 gap-8">
         <div className="md:col-span-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-8 md:p-10">
           <p className="text-lg text-indigo-100/90 leading-relaxed mb-6">
-            I'm a Front-end Developer with a passion for continuous learning and problem-solving. I always love learning new technologies and discovering anything that has a simple relation to tech.
+            I&#39;m a Front-end Developer with a passion for continuous learning and problem-solving. I always love learning new technologies and discovering anything that has a simple relation to tech.
           </p>
           <p className="text-lg text-indigo-100/90 leading-relaxed mb-6">
             My goal is to grow in my career to become a Full-Stack Developer, Team Lead, and Mentor. I have strong experience in building responsive and user-friendly interfaces, focusing on clean, component-based architecture and performance optimization.

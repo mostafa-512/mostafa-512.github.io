@@ -94,9 +94,9 @@ export default function Contact() {
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* معلومات التواصل */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Let's work <span className="text-indigo-300">together</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Let&#39;s work <span className="text-indigo-300">together</span></h2>
             <p className="text-indigo-100/80 mb-8 max-w-md">
-              I'm currently available to take on new projects or discuss full-time roles. Feel free to send me a message!
+              I&#39;m currently available to take on new projects or discuss full-time roles. Feel free to send me a message!
             </p>
 
             <div className="space-y-6">

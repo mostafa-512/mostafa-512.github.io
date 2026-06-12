@@ -64,7 +64,7 @@ const VitoBadges = ['React.js', 'Vite', 'OpenAI API', 'Gemini API', 'DeepSeek', 
           </div>
           <div className="w-full md:w-2/3 space-y-4">
             <div className="flex justify-between items-start">
-              <h3 className="text-2xl font-semibold text-white">Evo-Note Chatbot</h3>
+              <h3 className="text-2xl font-semibold text-white">EvoNote – AI Project Ideation Assistan</h3>
               <a href="https://evo-note-iota.vercel.app/" target="_blank" rel="noreferrer" className="text-indigo-300 hover:text-white transition-colors bg-white/5 p-2 rounded-full hover:bg-white/10">
                 <ExternalLink size={20} />
               </a>

@@ -14,7 +14,7 @@ export default function Hero() {
           <Code2 size={24} className="text-indigo-300" /> Welcome to my portfolio
         </h2>
         <h1 className="text-4xl md:text-6xl md:leading-[1.2] font-bold">
-          Hi, I'm <br />
+          Hi, I&#39;m <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-indigo-300">
             Mostafa Abdalraheem
           </span>
