@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mostafa-abdalraheem.netlify.app'),
   title: 'Mostafa Abdalraheem | Front-end Developer',
   description: 'Portfolio of Mostafa Abdalraheem, a Front-end Developer specializing in React.js and Next.js. Building interactive, high-performance web applications.',
   keywords: ['Front-end Developer', 'React.js', 'Next.js', 'Web Developer', 'Mostafa Abdalraheem', 'Egypt', 'Portfolio'],
